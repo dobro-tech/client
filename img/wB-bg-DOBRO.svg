@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Roman Inozemtsev: https://github.com/mir-one/  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Слой_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 67 67"
+   style="enable-background:new 0 0 67 67;"
+   xml:space="preserve"
+   sodipodi:docname="wB-bg-LOCAL.svg"
+   inkscape:version="0.92.2pre0 (973e216, 2017-07-25)"><metadata
+     id="metadata22"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+     id="defs20"><style
+       id="style829">.cls-1,.cls-3{fill:#0056ff;}.cls-1{fill-rule:evenodd;}.cls-2{fill:#fff;}.cls-4{fill:none;}</style><linearGradient
+       y2="0.8933"
+       x2="33.5"
+       y1="67.8933"
+       x1="33.5"
+       gradientUnits="userSpaceOnUse"
+       id="SVGID_1_"><stop
+         id="stop4"
+         style="stop-color:#2B388F"
+         offset="0" /><stop
+         id="stop6"
+         style="stop-color:#EB008B"
+         offset="1" /></linearGradient><style
+       id="style836">.cls-1,.cls-3{fill:#0056ff;}.cls-1{fill-rule:evenodd;}.cls-2{fill:#fff;}.cls-4{fill:none;}</style></defs><sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="696"
+     id="namedview18"
+     showgrid="false"
+     inkscape:zoom="0.62267612"
+     inkscape:cx="-192.12912"
+     inkscape:cy="159.23012"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Слой_1" /><style
+     type="text/css"
+     id="style2">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
+</style><rect
+     id="rect859"
+     height="632"
+     width="2429.0801"
+     class="cls-4"
+     x="-1177.0656"
+     y="-1035.9661"
+     style="fill:none" /><style
+     id="style912"
+     type="text/css">
+	.st0{fill:#3F61AC;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#2B388F;}
+	.st3{fill:#58595B;}
+</style><style
+     id="style954"
+     type="text/css">
+	.st0{fill:#00AEEF;}
+	.st1{fill:#FFFFFF;}
+</style><polygon
+     id="polygon842"
+     points="67.46,316 313.07,70.39 558.66,316 313.07,561.61 "
+     class="cls-1"
+     style="fill:#0056ff;fill-rule:evenodd"
+     transform="matrix(0.13622977,0,0,0.13622977,-9.0777892,-9.4748313)" /><path
+     class="st1"
+     d="m 43.29816,20.230455 c -2.207766,-2.472698 -5.033696,-3.885667 -8.389495,-4.238909 -5.9168,-0.618173 -11.568681,2.825939 -13.688126,8.389496 -0.794795,1.942825 -1.059724,3.885669 -0.883112,6.005113 0.176627,2.119456 0.971429,4.150598 1.854527,6.093426 1.589587,3.3558 3.709042,6.358355 6.181729,9.184297 1.589597,1.854515 3.355799,3.620728 5.033695,5.386941 0.08833,0.08833 0.08833,0.08833 0.08833,0.176615 0.08833,0 0.08833,0 0.176627,0 0.971414,-0.971414 1.942829,-1.942828 2.82593,-2.914242 2.82594,-3.002557 5.386941,-6.270042 7.41808,-9.890782 1.148041,-2.031142 2.119455,-4.150587 2.649317,-6.446658 0.883112,-4.503844 -0.264929,-8.477811 -3.267486,-11.745297 z m -9.714151,17.22054 c -4.592144,0 -8.389498,-3.709041 -8.389498,-8.389498 0,-4.680455 3.709037,-8.389501 8.389498,-8.389501 4.680455,0 8.389497,3.709046 8.389497,8.389501 0,4.680457 -3.797355,8.389498 -8.389497,8.389498 z"
+     id="path15-3"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff;stroke-width:0.8831048" /></svg>

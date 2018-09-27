@@ -19,9 +19,9 @@
 <html ng-app="app" ng-csp>
 <head>
   <meta charset="utf-8">
-  <title>Local Blockchain</title>
+  <title>Платформа Добротех</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/local.css">
+  <link rel="stylesheet" href="css/dobro.css">
 
   <link href="img/favicon.png" type="image/x-icon" rel="shortcut icon">
 </head>
@@ -123,7 +123,7 @@
             <div class="plate-warning">
               <p class="dialog-text" style="font-weight: bold;">С осторожностью обращайтесь с SEED (Секретной фразой)!</p>
               <p class="dialog-text">Только SEED-фраза может обеспечить доступ к вашему кошельку.</p>
-              <p class="dialog-text">1. Не используйте свою SEED-фразу нигде, кроме этого сайта <br/>(внимательно сравните с этим доменом localwaves.xyz/local/kna).</p>
+              <p class="dialog-text">1. Не используйте свою SEED-фразу нигде, кроме этого сайта <br/>(внимательно сравните с этим доменом dobro.tech).</p>
               <p class="dialog-text">Если кто-то другой завладеет секретной фразой, вы потеряете свои токены.</p>
               <p class="dialog-text">2. Храните свою SEED-фразу в защищенном месте, это единственный способ восстановить ваш кошелек.</p>
             </div>
@@ -209,13 +209,9 @@
 
 <div id="wrapper" ng-switch-when="main-screen" ng-cloak>
   <!-- shared blocks -->
-  <div id="feat-not-active" waves-dialog global="true" show-buttons="false" is-error="true">
+  <div id="feat-not-active" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
     <h2 class="sectionHeader">Внимание!</h2>
     <p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
-    <p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
-    <div class="modal-media">
-    	<a href="https://vk.com/localwaves" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-    </div>
   </div>
   <!-- /shared blocks-->
 
@@ -431,7 +427,7 @@
                 <table>
                   <div class="balanceAmt">
                     <div ng-if="!send.feeAndTransferAssetsAreTheSame"><p>Баланс: </p><span class="balancewaves">{{send.assetBalance | moneyLong:true}}</span><br/></div>
-                    <p>Баланс в Wave: </p><span class="balancewaves">{{send.feeAssetBalance | moneyLong:true}}</span>
+                    <p>Баланс в Waves: </p><span class="balancewaves">{{send.feeAssetBalance | moneyLong:true}}</span>
                   </div>
                   <thead>
                   <tr>
@@ -656,69 +652,9 @@
           <!-- ДЛЯ НОВЫХ АКТИВОВ -->
 
           <div class="noDisp">
-            <div id="local-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
+            <div id="dobro-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
     		<h2 class="sectionHeader">Внимание!</h2>
     		<p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
-    		<p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
-    			<div class="modal-media">
-    		<a href="https://vk.com/localwaves" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-
-    			</div>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="quest-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-    		<h2 class="sectionHeader">Внимание!</h2>
-    		<p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
-    		<p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
-    			<div class="modal-media">
-    		<a href="https://vk.com/localwaves" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-    			</div>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="photo-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-    		<h2 class="sectionHeader">Внимание!</h2>
-    		<p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
-    		<p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
-    			<div class="modal-media">
-    		<a href="https://vk.com/localwaves" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-    			</div>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="beauty-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-    		<h2 class="sectionHeader">Внимание!</h2>
-    		<p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
-    		<p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
-    			<div class="modal-media">
-    		<a href="https://vk.com/localwaves" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-    			</div>
-            </div>
-          </div>
-
-           <div class="noDisp">
-            <div id="clothing-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-    		<h2 class="sectionHeader">Внимание!</h2>
-    		<p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
-    		<p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
-    			<div class="modal-media">
-    		<a href="https://vk.com/localwaves" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-    			</div>
-            </div>
-          </div>
-
-          <div class="noDisp">
-            <div id="tattoo-dialog" waves-dialog ok-button-caption="ЗАКРЫТЬ" cancel-button-visible="false">
-    		<h2 class="sectionHeader">Внимание!</h2>
-    		<p class="dialog-text">Эта функция находится в разработке и неактивна во время релиза.</p>
-    		<p class="dialog-text">Подпишитесь на каналы социальных сетей, чтобы быть в курсе последних событий.</p>
-    			<div class="modal-media">
-    		<a href="https://vk.com/localwaves" target="_blank"><img id="icon-blog" class="modal-media-img" src="img/vk_icon.svg" /></a>
-    			</div>
             </div>
           </div>
 
@@ -1358,7 +1294,7 @@
   </div>
 </div> <!-- Wrapper div END -->
 
-<script src="js/local.js"></script>
+<script src="js/dobro.js"></script>
 
 
 </body>
